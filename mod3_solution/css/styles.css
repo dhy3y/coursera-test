@@ -1,0 +1,108 @@
+body {
+    color: #000;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* HEADER STARTS HERE */
+#header-nav {
+    background-color: #0000bd;
+    border: 0;
+    border-radius: 0;
+}
+
+#header-nav button {
+    margin-top: 25px;
+    outline-color: #fff;
+    border: 1px #fff solid;
+    background: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fce29e;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand{
+    height: 70px;
+    padding-top: 0;
+}
+.navbar-nav li a {
+    height: 50px;
+}
+
+.navbar-brand h1 {
+    color: #fff;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.8em;
+    text-shadow: 2px 2px #000;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fe9797;
+}
+
+#nav-list {
+    background-color: #2db33e;
+}
+
+#nav-list a {
+    text-align: center;
+    font-weight: bolder;
+    color: #000;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #202020;
+    background-color: #7dff8d;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
+}
+/* HEADER END HERE */
+
+/* HOME PAGE STARTS HERE */
+#diet-tiles {
+    margin: 20px;
+}
+    
+#main-content {
+    width: 100%;
+    margin: 0px;
+}
+
+#main-content h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#diet-tiles a {
+    color: #ff0000;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0 auto;
+}
+
+#veg_block, #nonveg_block, #egg_block {
+    padding: 20px;
+    background-color: #a19f9f;
+    margin-bottom: 50px;
+    box-shadow: 0 0 20px #000;
+}
+/* HOME PAGE ENDS HERE */
